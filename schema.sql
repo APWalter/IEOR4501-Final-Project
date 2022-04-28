@@ -18,7 +18,8 @@ CREATE TABLE IF NOT EXISTS uber_data
     pickup_longitude FLOAT,
     pickup_latitude FLOAT,
     dropoff_longitude FLOAT,
-    dropoff_latitude FLOAT
+    dropoff_latitude FLOAT,
+    distance FLOAT
 );
 
 CREATE TABLE IF NOT EXISTS taxi_data
