@@ -15,7 +15,8 @@ CREATE TABLE IF NOT EXISTS daily_weather
 CREATE TABLE IF NOT EXISTS taxi_data
 (
     pickup_datetime DATE PRIMARY KEY,
-    trip_distance FLOAT
+    trip_distance FLOAT,
+    fare_amount FLOAT
 );
 
 CREATE TABLE IF NOT EXISTS uber_data
