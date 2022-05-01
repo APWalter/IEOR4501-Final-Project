@@ -18,4 +18,22 @@ After answering these questions, we set out to visualize the data, to further ma
 
 ## 1. Data Pre-processing
 
-This section is the setup for the rest of the project. Its primary objectives 
+This section is the setup for the rest of the project. Its primary objectives are to set up the data in order to be ready for analysis. This involved programatically downloading (scraping), cleaning, and saving into respective CSVs. 
+
+***Please note that the taxi data was too large for our computers to handle downloading programatically. Therefore, it was gotten manually and was not downloaded via the code. However, given enough RAM and computer capabilites, the code will work to download and clean the data we used for the rest of the project. Additionally, we forgot to get the tip amount so we used fare amount instead and the code reflects that as well. The code was tested on small amounts of data (we managed to get PERFECTLY 4 years of taxi data with this code over multiple days (and a lot of crashing) before our RAMs just could not handle it any longer, so we know this would in theory work perfectly.*** 
+
+## 2. Storing Data
+
+In this section we utilized SQL to create databases for all of the data for easier manipulation and visualization which will be done in later parts. 
+
+## 3. Understanding Data
+
+In this section we answered the above questions in the "general" section. We utilized queries for this part as well. 
+
+## 4. Visualizing Data
+
+Here we created visualizations for the above questions and others for easier interpretation of the data. The data was read from the SQLite Database created previously. 
+
+## Using the code
+
+The code was created with ease of use in mind. Make sure to run all the necessary imports and urls before running the code. Also, again, note that the taxi getting will break if the computer is not strong enough, therefore an external dataframe was used of data gotten manually. This was suggested by both the TA and Professor. Run the code sequentially, docstrings are provided to further understand what the code does and how to use it. Enjoy and thank you!
